@@ -2,11 +2,6 @@
     padding: 1%;
 }
 
-.cont_dim{
-    height: auto;
-    margin: auto!important;
-}
-
 .cont_dim2{
     width: 80%;
     margin: auto!important;
@@ -21,7 +16,7 @@
 }
 
 .color_boton{
-    width: 10%;
+    width: 5%;
     height: 40%;
     margin: auto;
     background-color: brown;
