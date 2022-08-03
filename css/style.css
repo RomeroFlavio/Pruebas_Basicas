@@ -1,0 +1,46 @@
+.main{
+    padding: 1%;
+}
+
+.cont_dim2{
+    width: 80%;
+    margin: auto!important;
+    margin-top: 1%!important;
+    margin-bottom: 50px!important;
+    text-align: center;
+}
+
+.img1{
+    width: 80%;
+    margin: auto!important;
+}
+
+.color_boton{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: brown;
+}
+/* Celu */
+@media only screen and (max-width: 799px){
+    .dimencion{
+        height: 850px;
+    }
+    .img_pc_off{
+        display: none!important;
+    }
+    .img1{
+        width: 100%;
+        margin: auto!important;
+    }
+}
+/* PC */
+@media only screen and (min-width:800px){
+    .dimencion{
+        height: 850px;
+    }
+    .img_cel_off{
+        display: none!important;
+    }
+}
